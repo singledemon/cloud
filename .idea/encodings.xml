@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-biz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-datascope" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-common/oumeng-common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-job/xxl-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-job/xxl-job-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-receiver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-report" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-visual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-visual/oumeng-code-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-visual/oumeng-sentinel-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oumeng-gateway" />
+        <module name="oumeng-receiver" />
+        <module name="oumeng-common-core" />
+        <module name="oumeng-search" />
+        <module name="oumeng-common-log" />
+        <module name="xxl-job" />
+        <module name="oumeng-biz-crm" />
+        <module name="oumeng-common-datascope" />
+        <module name="xxl-job-admin" />
+        <module name="oumeng-file" />
+        <module name="oumeng-sms" />
+        <module name="oumeng-visual-monitor" />
+        <module name="oumeng-report" />
+        <module name="oumeng-common-redis" />
+        <module name="oumeng-code-generator" />
+        <module name="oumeng-common-swagger" />
+        <module name="oumeng-sentinel-dashboard" />
+        <module name="oumeng-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commonCore" target="1.8" />
+      <module name="commonDatascope" target="1.8" />
+      <module name="commonLog" target="1.8" />
+      <module name="commonRedis" target="1.8" />
+      <module name="commonSwagger" target="1.8" />
+      <module name="Crm" target="1.8" />
+      <module name="Generator" target="1.8" />
+      <module name="Monitor" target="1.8" />
+      <module name="oumeng-common-mq" target="1.8" />
+      <module name="oumeng-log" target="1.8" />
+      <module name="oumengAuth" target="1.8" />
+      <module name="oumengBusiness" target="1.8" />
+      <module name="oumengCommon" target="1.8" />
+      <module name="oumengFile" target="1.8" />
+      <module name="oumengGateway" target="1.8" />
+      <module name="oumengJob" target="1.8" />
+      <module name="oumengLog" target="1.8" />
+      <module name="oumengReceiver" target="1.8" />
+      <module name="oumengSearch" target="1.8" />
+      <module name="oumengSms" target="1.8" />
+      <module name="oumengVisual" target="1.8" />
+      <module name="plumelog-rest" target="1.8" />
+      <module name="plumelog-server" target="1.8" />
+      <module name="plumelog-ui" target="1.8" />
+      <module name="SentinelDashboard" target="1.8" />
+      <module name="xxlJob" target="1.8" />
+      <module name="xxlJobAdmin" target="1.8" />
+      <module name="xxlJobCore" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Crm" options="-parameters" />
+      <module name="Generator" options="-parameters" />
+      <module name="Monitor" options="-parameters" />
+      <module name="SentinelDashboard" options="-parameters" />
+      <module name="commonCore" options="-parameters" />
+      <module name="commonDatascope" options="-parameters" />
+      <module name="commonLog" options="-parameters" />
+      <module name="commonRedis" options="-parameters" />
+      <module name="commonSwagger" options="-parameters" />
+      <module name="oumeng-auth" options="-parameters" />
+      <module name="oumeng-biz-crm" options="-parameters" />
+      <module name="oumeng-code-generator" options="-parameters" />
+      <module name="oumeng-common-core" options="-parameters" />
+      <module name="oumeng-common-datascope" options="-parameters" />
+      <module name="oumeng-common-log" options="-parameters" />
+      <module name="oumeng-common-mq" options="-parameters" />
+      <module name="oumeng-common-redis" options="-parameters" />
+      <module name="oumeng-common-swagger" options="-parameters" />
+      <module name="oumeng-file" options="-parameters" />
+      <module name="oumeng-gateway" options="-parameters" />
+      <module name="oumeng-log" options="-parameters" />
+      <module name="oumeng-receiver" options="-parameters" />
+      <module name="oumeng-report" options="-parameters" />
+      <module name="oumeng-search" options="-parameters" />
+      <module name="oumeng-sentinel-dashboard" options="-parameters" />
+      <module name="oumeng-sms" options="-parameters" />
+      <module name="oumeng-visual-monitor" options="-parameters" />
+      <module name="oumengAuth" options="-parameters" />
+      <module name="oumengFile" options="-parameters" />
+      <module name="oumengGateway" options="-parameters" />
+      <module name="oumengJob" options="" />
+      <module name="oumengLog" options="-parameters" />
+      <module name="oumengReceiver" options="-parameters" />
+      <module name="oumengSearch" options="-parameters" />
+      <module name="oumengSms" options="-parameters" />
+      <module name="oumengVisual" options="" />
+      <module name="xxl-job" options="-parameters" />
+      <module name="xxlJob" options="-parameters" />
+      <module name="xxlJobAdmin" options="" />
+      <module name="xxlJobCore" options="-parameters" />
+    </option>
+  </component>
+</project>

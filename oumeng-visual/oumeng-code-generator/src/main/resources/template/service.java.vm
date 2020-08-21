@@ -1,0 +1,20 @@
+package ${package}.service;
+
+import org.springframework.stereotype.Service;
+
+import ${package}.entity.${className};
+import ${package}.mapper.${className}Mapper;
+import com.cetc.common.web.service.impl.AbstractServiceImpl;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+@Service
+@Transactional(rollbackFor = Exception.class)
+public class ${className}Service extends AbstractServiceImpl<${className}Mapper,${className}> {
+}

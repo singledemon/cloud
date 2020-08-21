@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: oumeng-sentinel
+  #nacos配置
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: demo
+        prefix: application
+      discovery:
+        server-addr: 127.0.0.1:8848

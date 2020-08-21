@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.oumeng.file.mapper.SystemFileMapper">
+    <resultMap id="BaseResultMap" type="cn.com.oumeng.file.model.SystemFile">
+
+        <id column="id" property="id"/>
+        <result column="file_name" property="fileName"/>
+        <result column="file_md5" property="fileMd5"/>
+        <result column="file_length" property="fileLength"/>
+        <result column="path_url" property="pathUrl"/>
+        <result column="file_size" property="fileSize"/>
+        <result column="creator" property="creator"/>
+        <result column="modify_date" property="modifyDate"/>
+        <result column="create_date" property="createDate"></result>
+    </resultMap>
+    <sql id="base_column_list">
+        id,file_name fileName,file_length fileLength,path_url pathUrl,file_size fileSize,creator,create_date createDate,modify_date modifyDate
+    </sql>
+
+
+</mapper>

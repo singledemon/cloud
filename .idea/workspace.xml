@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94d614b7-9ce9-4488-83f6-bd0cd73f8149" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsReportMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/rest/SmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/FileServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/FileServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/mapper/SystemFileMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/SystemFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/service/SystemFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-file/src/main/resources/Mapper/FileMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-file/src/main/resources/Mapper/SystemFileMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oumeng-sms/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/oumeng-sms/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/oumengGateway/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/commonDatascope/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/target/" />
+    <ignored path="$PROJECT_DIR$/oumengBusiness/Crm/target/" />
+    <ignored path="$PROJECT_DIR$/oumengBusiness/target/" />
+    <ignored path="$PROJECT_DIR$/oumengAuth/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/commonCore/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/commonLog/target/" />
+    <ignored path="$PROJECT_DIR$/oumengFile/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/commonSwagger/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/target/" />
+    <ignored path="$PROJECT_DIR$/oumengSearch/target/" />
+    <ignored path="$PROJECT_DIR$/oumengSms/target/" />
+    <ignored path="$PROJECT_DIR$/oumengVisual/target/" />
+    <ignored path="$PROJECT_DIR$/oumengCommon/commonRedis/target/" />
+    <ignored path="$PROJECT_DIR$/oumengVisual/Monitor/target/" />
+    <ignored path="$PROJECT_DIR$/oumengVisual/Generator/target/" />
+    <ignored path="$PROJECT_DIR$/oumengVisual/SentinelDashboard/target/" />
+    <ignored path="$PROJECT_DIR$/oumengReceiver/target/" />
+    <ignored path="$PROJECT_DIR$/oumengLog/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxlJob/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxlJobAdmin/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-core/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-spring/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-admin/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-jboot/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-jfinal/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-frameless/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxl-job-executor-samples/xxl-job-executor-sample-nutz/target/" />
+    <ignored path="$PROJECT_DIR$/oumengJob/xxlJobCore/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-log/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-search/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-datascope/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-file/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-visual/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-log/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-job/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-job/xxl-job-admin/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-visual/oumeng-code-generator/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-visual/oumeng-sentinel-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-sms/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-receiver/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-auth/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-biz/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-job/xxl-job/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-log/plumelog-server/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-log/plumelog-ui/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-log/plumelog-rest/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/common.swagger/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-report/target/" />
+    <ignored path="$PROJECT_DIR$/oumeng-common/oumeng-common-rabbitmq/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="103" column="60" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/config/SmsProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/rest/SmsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsReportMessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="107" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-sms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/model/SystemFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/resources/Mapper/SystemFileMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setAppnae</find>
+      <find>nacos</find>
+      <find>plumelog-log4j</find>
+      <find>redis 写入失败</find>
+      <find>AG-Admin2.0版本的通用代码生成器！加速业务开发！</find>
+      <find>operLogMapper</find>
+      <find>OperationLogMapper</find>
+      <find>SysOperLog</find>
+      <find>slf4j</find>
+      <find>context</find>
+      <find>org.projectlombok</find>
+      <find>sl4</find>
+      <find>slf4j.version</find>
+      <find>spring-boot-starter-log4j</find>
+      <find>prod</find>
+      <find>logback.version</find>
+      <find>springclouddemo</find>
+      <find>fastdfs-client.properties</find>
+      <find>initClientGlobal</find>
+      <find>${spring.rabbitmq.consumers}</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>OperationLogMapper</replace>
+      <replace>baseMapper</replace>
+      <replace>OperationLog</replace>
+      <replace>pro</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oumeng-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/resources/application-dev111.yml" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job-admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job-admin/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-receiver/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-receiver/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-search/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-search/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-search/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-receiver/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-job/xxl-job-admin/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-gateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-gateway/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/oumeng-gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/FileController.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUpload.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/constant/UpLoadConstant.java" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/util/ReadPropertiesUtils.java" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/configure/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/util/CheckFileResultUtils.java" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/entity/CheckFileResultUtils.java" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/entity/CheckFileResult.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/model/SystemFile.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastConnectionPool.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/FileServerApplication.java" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/resources/Mapper/SystemFileMapper.xml" />
+        <option value="$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUploadController.java" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/SmsController.java" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsReportMessageListener.java" />
+        <option value="$PROJECT_DIR$/oumeng-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/rest/SmsController.java" />
+        <option value="$PROJECT_DIR$/oumeng-sms/src/main/resources/application-dev.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oumengCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oumengCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oumengCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="oumeng-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oumengCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="oumeng-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oumengCloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="oumeng-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-38" />
+    <option name="width" value="1943" />
+    <option name="height" value="1067" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oumengCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oumengCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oumengCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oumengCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="oumeng-visual" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/oumengCommon/commonCore/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ocl" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22974962" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/oumengJob/xxlJobAdmin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\oumengCloud\oumeng-visual\oumeng-code-generator\src\main\java" />
+      <recent name="D:\work\workspace\oumengCloud\oumengCommon\commonRedis\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.oumeng.common.core.util" />
+      <recent name="cn.com.oumeng.file.constant" />
+      <recent name="cn.com.oumeng.file.rest" />
+      <recent name="cn.com.oumeng.biz.crm.config" />
+      <recent name="cn.com.oumeng.common.core.sender.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\oumengCloud\oumeng-gateway\src\main\resources" />
+      <recent name="D:\work\workspace\oumengCloud\oumeng-file\src\main\resources" />
+      <recent name="D:\work\workspace\oumengCloud\oumeng-file\src\main\java\cn\com\oumeng\file" />
+      <recent name="D:\work\workspace\oumengCloud\oumeng-sms\src\main\java\cn\com\oumeng\sms" />
+      <recent name="D:\work\workspace\oumengCloud\oumeng-common\oumeng-common-core\src\main\java\cn\com\oumeng\common\core\sender" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FileServerApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="oumengJob" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="oumengJob" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oumeng-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.oumeng.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.file.FileServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oumeng-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.gateway.GatewayServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxl-job-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxl.job.admin.JobAdminServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xxl-job" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.oumeng.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.job.JobServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oumeng-visual-monitor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.oumeng.monitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.monitor.MonitorServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyreportApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oumeng-report" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.report.ReportServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiverServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oumeng-receiver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.oumeng.receiver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.receiver.ReceiverServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oumeng-report" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.report.ReportServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oumeng-report" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.report.ReportServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oumeng-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.oumeng.sms.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.oumeng.sms.SmsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MyreportApplication" />
+      <item itemvalue="Spring Boot.ReportServerApplication" />
+      <item itemvalue="Spring Boot.GatewayServerApplication" />
+      <item itemvalue="Spring Boot.JobAdminServerApplication" />
+      <item itemvalue="Spring Boot.MonitorServerApplication" />
+      <item itemvalue="Spring Boot.SmsServerApplication" />
+      <item itemvalue="Spring Boot.ReceiverServerApplication" />
+      <item itemvalue="Spring Boot.JobServerApplication" />
+      <item itemvalue="Spring Boot.FileServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FileServerApplication" />
+        <item itemvalue="Spring Boot.JobServerApplication" />
+        <item itemvalue="Spring Boot.ReceiverServerApplication" />
+        <item itemvalue="Spring Boot.SmsServerApplication" />
+        <item itemvalue="Spring Boot.MonitorServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94d614b7-9ce9-4488-83f6-bd0cd73f8149" name="Default Changelist" comment="" />
+      <created>1595814368100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595814368100</updated>
+      <workItem from="1595814370568" duration="30096000" />
+      <workItem from="1595896742474" duration="12487000" />
+      <workItem from="1595939138064" duration="25511000" />
+      <workItem from="1596069737858" duration="39084000" />
+      <workItem from="1596418744337" duration="23658000" />
+      <workItem from="1596511409271" duration="298000" />
+      <workItem from="1596588484336" duration="6987000" />
+      <workItem from="1596679016360" duration="15573000" />
+      <workItem from="1596767442783" duration="20761000" />
+      <workItem from="1597021765082" duration="11833000" />
+      <workItem from="1597044425087" duration="11472000" />
+      <workItem from="1597110195157" duration="13931000" />
+      <workItem from="1597139224741" duration="2067000" />
+      <workItem from="1597193538818" duration="2620000" />
+      <workItem from="1597232227954" duration="25774000" />
+      <workItem from="1597367337482" duration="603000" />
+      <workItem from="1597369852651" duration="11474000" />
+      <workItem from="1597574865872" duration="6534000" />
+      <workItem from="1597625267379" duration="23941000" />
+      <workItem from="1597798758492" duration="1206000" />
+      <workItem from="1597813165387" duration="3777000" />
+      <workItem from="1597885169587" duration="2208000" />
+    </task>
+    <task id="LOCAL-00001" summary="create oumengCrm project">
+      <created>1595844963481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595844963481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create oumengCrm project">
+      <created>1595845558486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595845558486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create oumengCrm project">
+      <created>1595845657161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595845657161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init.sql添加">
+      <created>1595846433915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595846433915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mybatisplus 驼峰式转换配置。">
+      <created>1595847622966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595847622966</updated>
+    </task>
+    <task id="LOCAL-00006" summary="xxl-job 任务调度服务引入。相关初始化添加。">
+      <created>1596014283281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596014283281</updated>
+    </task>
+    <task id="LOCAL-00007" summary="plumelog 日志服务引用。">
+      <created>1596176960463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596176960463</updated>
+    </task>
+    <task id="LOCAL-00008" summary="plumelog 日志服务引用。">
+      <created>1596183895210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596183895210</updated>
+    </task>
+    <task id="LOCAL-00009" summary="plumelog 日志服务引用。">
+      <created>1596421458019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596421458019</updated>
+    </task>
+    <task id="LOCAL-00010" summary="generator 代码生成器服务添加。">
+      <created>1596434363091</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596434363091</updated>
+    </task>
+    <task id="LOCAL-00011" summary="report 报表服务添加。日志服务整合。">
+      <created>1596705956500</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596705956500</updated>
+    </task>
+    <task id="LOCAL-00012" summary="report 报表服务添加。日志服务整合。">
+      <created>1596768217148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596768217148</updated>
+    </task>
+    <task id="LOCAL-00013" summary="logback日志文件配置整合。">
+      <created>1596790382165</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596790382165</updated>
+    </task>
+    <task id="LOCAL-00014" summary="rabbitmq 代码整合，sms服务代码添加。">
+      <created>1597057707542</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597057707542</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rabbitmq 代码整合，sms服务代码添加。">
+      <created>1597140224680</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597140224681</updated>
+    </task>
+    <task id="LOCAL-00016" summary="配置文件修改，整合nacos配置中心。">
+      <created>1597377141054</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597377141054</updated>
+    </task>
+    <task id="LOCAL-00017" summary="pom文件依赖修改">
+      <created>1597627824042</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597627824043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="file项目整合 springboot依赖的fastDFS，添加文件分片上传功能。">
+      <created>1597659764189</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597659764189</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="291895000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.494" visible="true" weight="0.22657807" />
+      <window_info id="Structure" order="1" sideWeight="0.506" side_tool="true" weight="0.31362125" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" weight="0.25544268" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25834543" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32946298" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033224" side_tool="true" weight="0.27866474" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29753265" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3425254" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.31096345" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32956812" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32956812" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create oumengCrm project" />
+    <MESSAGE value="init.sql添加" />
+    <MESSAGE value="mybatisplus 驼峰式转换配置。" />
+    <MESSAGE value="xxl-job 任务调度服务引入。相关初始化添加。" />
+    <MESSAGE value="plumelog 日志服务引用。" />
+    <MESSAGE value="generator 代码生成器服务添加。" />
+    <MESSAGE value="report 报表服务添加。日志服务整合。" />
+    <MESSAGE value="logback日志文件配置整合。" />
+    <MESSAGE value="rabbitmq 代码整合，sms服务代码添加。" />
+    <MESSAGE value="配置文件修改，整合nacos配置中心。" />
+    <MESSAGE value="pom文件依赖修改" />
+    <MESSAGE value="file项目整合 springboot依赖的fastDFS，添加文件分片上传功能。" />
+    <option name="LAST_COMMIT_MESSAGE" value="file项目整合 springboot依赖的fastDFS，添加文件分片上传功能。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/java/cn/com/oumeng/biz/crm/consumer/OperationLogConsumer.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/java/cn/com/oumeng/biz/crm/consumer/OperationLogConsumer.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-common/oumeng-common-log/src/main/java/cn.com.oumeng.common.log/service/AsyncLogService.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-common/oumeng-common-log/src/main/java/cn.com.oumeng.common.log/service/AsyncLogService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/sender/impl/RabbitMqSenderImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastConnectionPool.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastConnectionPool.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastConnectionPool.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUploadController.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/java/cn/com/oumeng/biz/crm/consumer/OperationLogConsumer.java</url>
+          <line>23</line>
+          <properties field="operationLogService" class="cn.com.oumeng.biz.crm.consumer.OperationLogConsumer" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oumeng-job/xxl-job-admin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-job/xxl-job/src/main/java/cn/com/oumeng/job/JobServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-job/xxl-job/src/main/resources/application-pro.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-gateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-gateway/src/main/resources/application-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fallback/CrmServerFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/properties/fdfs_client.conf" />
+    <entry file="jar://D:/software/java/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="422" selection-start-line="422" selection-end-line="422" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-biz/oumeng-biz-crm/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/constant/UpLoadConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/configure/FastJson2JsonRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/util/ReadPropertiesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.2/fastdfs-client-1.26.2.jar!/com/github/tobato/fastdfs/service/DefaultAppendFileStorageClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.2/fastdfs-client-1.26.2.jar!/com/github/tobato/fastdfs/service/AppendFileStorageClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-core/src/main/java/cn/com/oumeng/common/core/entity/CheckFileResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-end-line="78" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/mapper/SystemFileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/service/SystemFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/configure/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-redis/src/main/java/cn/com/oumeng/common/redis/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/FileServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/ChunkUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-common/oumeng-common-log/src/main/java/cn.com.oumeng.common.log/model/OperationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/src/main/java/cn/com/oumeng/monitor/MonitorServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-visual/oumeng-visual-monitor/src/main/java/cn/com/oumeng/monitor/config/WebSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/resources/application-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/fastdfs/FastConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/rest/SystemFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/java/cn/com/oumeng/file/model/SystemFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-file/src/main/resources/Mapper/SystemFileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="103" column="60" selection-start-line="103" selection-start-column="60" selection-end-line="103" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/config/SmsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/listener/SmsReportMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="107" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/java/cn/com/oumeng/sms/rest/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oumeng-sms/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oumengCloud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22974962" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

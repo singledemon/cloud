@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: oumeng-generator
+  #nacos配置
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: demo
+        prefix: application
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#logback日志记录
+logback:
+  logDir: D:/log
+  appName: oumeng-generator
+  fileType: log
