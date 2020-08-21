@@ -12,22 +12,22 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.com.oumeng</groupId>
-    <artifactId>oumengCloud</artifactId>
+    <groupId>com.alin</groupId>
+    <artifactId>cloud</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>oumeng-gateway</module>
-        <module>oumeng-auth</module>
-        <module>oumeng-common</module>
-        <module>oumeng-biz</module>
-        <module>oumeng-visual</module>
-        <module>oumeng-job</module>
-        <module>oumeng-search</module>
-        <module>oumeng-file</module>
-        <module>oumeng-sms</module>
-        <module>oumeng-receiver</module>
-        <module>oumeng-report</module>
+        <module>platform-gateway</module>
+        <module>platform-auth</module>
+        <module>platform-common</module>
+        <module>platform-biz</module>
+        <module>platform-visual</module>
+        <module>platform-job</module>
+        <module>platform-search</module>
+        <module>platform-file</module>
+        <module>platform-sms</module>
+        <module>platform-receiver</module>
+        <module>platform-report</module>
     </modules>
 
 

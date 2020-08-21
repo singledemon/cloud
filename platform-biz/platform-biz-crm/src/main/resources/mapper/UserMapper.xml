@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cetc.admin.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.alin.biz.crm.model.User">
+
+        <id column="id" property="id"/>
+        <result column="password" property="password"/>
+        <result column="username" jdbcType="VARCHAR" property="userName"/>
+        <result column="create_date" property="createDate"></result>
+    </resultMap>
+    <sql id="base_column_list">
+        id,password,username as userName,create_date createDate
+    </sql>
+</mapper>

@@ -14,14 +14,11 @@ oumengCloud
 ├── oumeng-auth            // 认证中心 [8081] 引入登录鉴权中台
 ├── oumeng-common          // 通用模块 用于其他模块引用
 │       └── oumeng-common-core                         // 核心模块
-│       └── oumeng-common-datascope                    // 权限范围
 │       └── oumeng-common-redis                        // 缓存服务
 │       └── oumeng-common-security                     // 安全模块
 │       └── oumeng-common-swagger                      // 系统接口
 ├── oumeng-biz            // 业务模块
 │       └── oumeng-biz-crm         //crm系统    [8010] 
-│       └── oumeng-biz-ehr         //ehr系统（暂未接入）
-│       └── oumeng-biz-salesTool   //销售工具（暂未接入）  
 ├── oumeng-file            // 文件管理模块       [8011]
 ├── oumeng-job             // 任务调度模块 
       └── xxl-job           // 任务调度      [8012]
