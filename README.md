@@ -9,28 +9,28 @@
 ## 系统模块
 
 ~~~
-oumengCloud     
-├── oumeng-gateway         // 网关模块 [8080]
-├── oumeng-auth            // 认证中心 [8081] 引入登录鉴权中台
-├── oumeng-common          // 通用模块 用于其他模块引用
-│       └── oumeng-common-core                         // 核心模块
-│       └── oumeng-common-redis                        // 缓存服务
-│       └── oumeng-common-security                     // 安全模块
-│       └── oumeng-common-swagger                      // 系统接口
-├── oumeng-biz            // 业务模块
-│       └── oumeng-biz-crm         //crm系统    [8010] 
-├── oumeng-file            // 文件管理模块       [8011]
-├── oumeng-job             // 任务调度模块 
+cloud     
+├── platform-gateway         // 网关模块 [8080]
+├── platform-auth            // 认证中心 [8081] 引入登录鉴权中台
+├── platform-common          // 通用模块 用于其他模块引用
+│       └── platform-common-core                         // 核心模块
+│       └── platform-common-redis                        // 缓存服务
+│       └── platform-common-security                     // 安全模块
+│       └── platform-common-swagger                      // 系统接口
+├── platform-biz            // 业务模块
+│       └── platform-biz-crm         //crm系统    [8010] 
+├── platform-file            // 文件管理模块       [8011]
+├── platform-job             // 任务调度模块 
       └── xxl-job           // 任务调度      [8012]
       └── xxl-job-admin      // 任务调度管理  [8013] 
-├── oumeng-search          // 搜索查询模块       [8014]
-├── oumeng-sms             // 消息通知模块       [8015]
-├── oumeng-receiver        // 第三方系统对接模块  [8016]
-└── oumeng-report             // 报表服务模块       [8017]
-├── oumeng-visual          // 图形化管理模块
-│       └── oumeng-visual-monitor                     // 监控中心 [8018]
-│       └── oumeng-code-generator                     // 代码生成 [8019]
-│       └── oumeng-sentinel-dashboard                 // 流量高可用 [8020]
+├── platform-search          // 搜索查询模块       [8014]
+├── platform-sms             // 消息通知模块       [8015]
+├── platform-receiver        // 第三方系统对接模块  [8016]
+└── platform-report             // 报表服务模块       [8017]
+├── platform-visual          // 图形化管理模块
+│       └── platform-visual-monitor                     // 监控中心 [8018]
+│       └── platform-code-generator                     // 代码生成 [8019]
+│       └── platform-sentinel-dashboard                 // 流量高可用 [8020]
 ├──pom.xml                // 公共依赖
 ~~~
 
